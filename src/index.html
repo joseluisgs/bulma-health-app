@@ -23,17 +23,46 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target="menu">
 <!-- INICIO -->
     <!-- NAVBAR -->
+    <nav class="navbar has-shadow is-light is-fixed-top" id="menu">
+    
+        <!-- logo  -->
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#">
+                <img src="assets/images/logo.png" style="max-height: 100px" class="px-2">
+            </a>
+            <div class="is-size-5 mx-5 my-0 is-flex is-align-items-center app-title">Healh App</div>
+            <!-- burguer -->
+            <a role="button" id="navbar-menu-burguer" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbar-menu-items">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <!-- elementos del menú -->
+        <div id="navbar-menu-items" class="navbar-menu">
+            <!-- Los colocamos al final -->
+            <div class="navbar-start">
+                <a class="navbar-item" href="#home">Inicio</a>
+                <a class="navbar-item" href="#sobre-nosotros">Sobre Nosotros</a>
+                <a class="navbar-item" href="#galeria">Galeria</a>
+                <a class="navbar-item" href="#precio">Precio</a>
+                <a class="navbar-item" href="#contacto">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
     <!-- HERO  -->
     <!-- SOBRE NOSOTROS -->
     <!-- GALERIA -->
     <!-- PRECIO -->
     <!-- CONTACTO -->
     <!-- FOOTER -->
-    <p>Hola</p>
-
+ 
 
 
     <!-- FIN -->

@@ -12,4 +12,22 @@ $family-sans-serif: 'Saira', sans-serif;
 // Importamos el resto de Bulma
 @import 'node_modules/bulma/bulma.sass';
 
+// Centramos Los contenidos de la navbar
+.app-title {
+  width: 100%;
+  justify-content: center;
+}
+
+.navbar-burger {
+   height: auto;
+}
+
+// Centramos solo en Desktop
+@media screen and (min-width: $desktop){
+  .navbar-start{
+    flex-grow: 1;
+    justify-content: center;
+    text-align: center;
+  }
+}
 // Elementos a cambiar
