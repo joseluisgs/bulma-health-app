@@ -114,6 +114,17 @@ html {
   opacity: 0;
 }
 
+// Contacto
+.subscribe-area {
+  padding: 15vh 0;
+  background: url('/assets/images/subscribe-bg.jpg') no-repeat scroll center center / cover;
+}
+
+.subscribe-form {
+  background-color: #fff;
+  padding: 60px;
+  border-radius: 5px;
+}
 
 
 // Centramos solo en Desktop los items del navbar
