@@ -10,3 +10,13 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+// WOW Init
+var swiper = new Swiper(".swiper-container", {
+    pagination: {
+        el: ".swiper-pagination",
+        dynamicBullets: true,
+    }
+})
+// WOW
+new WOW().init()
