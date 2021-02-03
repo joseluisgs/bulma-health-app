@@ -10,8 +10,6 @@ burgerIcon.addEventListener('click', () => {
 });
 
 
-
-
 // WOW Init
 var swiper = new Swiper(".swiper-container", {
     pagination: {

@@ -11,14 +11,15 @@ $family-sans-serif: 'Saira', sans-serif;
 // MIS COLORES
 $primary: #17a2b8;
 
+
 // Importamos el resto de Bulma
 @import 'node_modules/bulma/bulma.sass';
+
 
 // Transiciones suaves de scroll
 html {
   scroll-behavior: smooth;
 }
-
 
 // Centramos Los contenidos de la navbar
 .app-title {
