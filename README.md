@@ -1,6 +1,6 @@
 # Bulma - Health App
 
-Proyecto Health App web con Bulma usando Saas y temas propios optimizando la tarea con Gulp incluyendo Font Awesome o Material Desing Icons.
+Proyecto Health App web con Bulma usando Saas y temas propios optimizando la tarea con Gulp incluyendo Font Awesome y diversos efectos interactivos.
 
 [![Bulma](https://img.shields.io/badge/Bulma-%20Ready-00d1b2)](https://bulma.io/made-with-bulma/)
 [![Saas](https://img.shields.io/badge/Sass-%20Ready-ff69b4)](https://sass-lang.com/)
@@ -10,7 +10,7 @@ Proyecto Health App web con Bulma usando Saas y temas propios optimizando la tar
 
 ## Acerca de
 
-Proyecto Health App realizado con el Framework CSS [Bulma](https://bulma.io/) y personalizado con Sass. Para ello se ha creado una serie de tareas automatizadas con [Gulp](https://gulpjs.com/) y se ha añadido como iconos [Font Awesome](https://fontawesome.com/)/[Material Desing Icons](https://materialdesignicons.com/) cambíandolos desde el fichero HTML, o simplemente pudiendo elegir ambos si se quiere.
+Proyecto Health App realizado con el Framework CSS [Bulma](https://bulma.io/) y personalizado con Sass. Para ello se ha creado una serie de tareas automatizadas con [Gulp](https://gulpjs.com/) y se ha añadido como iconos [Font Awesome](https://fontawesome.com/) y distintos librerías y efectos interactivos.
 
 ## Funcionamiento con npm:
 
