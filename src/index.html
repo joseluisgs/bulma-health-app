@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="joseluisgs">
+
+    <title>Bulma Init Plantilla</title>
+        
+    <!-- ESTILOS: Mis estilos, Bulma
+    Si no lo minimizas debes cargar una línea por fichero css de assets -->
+    <link rel="stylesheet" href="assets/css/estilos.css">
+
+    <!-- ICONOS -->
+    <!-- MATERIAL -->
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+    <!-- FA  -->
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous"> -->
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png" />
+
+    <!-- MIS FUENTES -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+<!-- HERO CON NAVBAR -->
+<section class="hero is-primary is-fullheight block">
+    <!-- Hero head: will stick at the top -->
+    <div class="hero-head">
+        <header class="navbar ">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a class="navbar-item">
+                        <img src="https://bulma.io/images/bulma-type-white.png" alt="Logo">
+                    </a>
+                    <!-- HAMBUGUSA PARA MINIMIZAR -->
+                    <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div id="navMenu" class="navbar-menu">
+                    <div class="navbar-end">
+                        <a class="navbar-item is-active">
+                            Inicio
+                        </a>
+                        <a class="navbar-item" href="#Contenido">
+                            Contenido
+                        </a>
+                        <a class="navbar-item" href="#Footer">
+                            Footer
+                        </a>
+                        <span class="navbar-item">
+                            <a class="button is-github is-inverted is-outlined" href="https://github.com/joseluisgs" target="_blank">
+                                <span class="icon">
+                                    <i class="mdi mdi-github"></i>
+                                </span>
+                                <span>Descargar</span>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!-- Hero content: will be in the middle -->
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <p class="title is-1">
+                Hola Bulma 👋 
+            </p>
+            <p class="subtitle">
+                Plantilla de ejemplo realizada en Bulma y personalizada usando Sass
+            </p>
+            <a href="https://bulma.io">
+                <img src="https://bulma.io/images/made-with-bulma--semiwhite.png" alt="Made with Bulma" width="256" height="48">
+            </a>
+        </div>
+    </div>
+
+    <!-- Hero footer: will stick at the bottom -->
+    <!-- <div class="hero-foot">
+        <nav class="tabs is-boxed is-fullwidth">
+            <div class="container">
+                <ul>
+                    <li class="is-active"><a>Overview</a></li>
+                    <li><a>Modifiers</a></li>
+                    <li><a>Grid</a></li>
+                    <li><a>Elements</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div> -->
+</section>
+
+
+    <!-- OTRA SECCION -->
+    <div id="Contenido" class="container block">
+        <!-- BREADCUMS -->
+        <nav class="breadcrumb" aria-label="breadcrumbs">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="icon is-small">
+                            <i class="mdi mdi-home" aria-hidden="true"></i>
+                        </span>
+                        <span>Bulma</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon is-small">
+                            <i class="mdi mdi-book-multiple" aria-hidden="true"></i>
+                        </span>
+                        <span>Documentation</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon is-small">
+                            <i class="mdi mdi-puzzle" aria-hidden="true"></i>
+                        </span>
+                        <span>Components</span>
+                    </a>
+                </li>
+                <li class="is-active">
+                    <a href="#">
+                        <span class="icon is-small">
+                            <i class="mdi mdi-thumb-up" aria-hidden="true"></i>
+                        </span>
+                        <span>Breadcrumb</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <div class="notification">
+            <h1 class="title is-1">
+                Bulma
+            </h1>
+
+            <p class="subtitle is-4">
+                CSS Basado en <a
+                    href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">Flexbox</a>
+            </p>
+
+            <div class="field">
+                <p class="control has-icons-left">
+                    <input class="input" type="email" placeholder="Email">
+                    <span class="icon is-medium is-left">
+                        <i class="mdi mdi-email-outline"></i>
+                    </span>
+                </p>
+            </div>
+
+            <div class="field">
+                <p class="control">
+                    <span class="select">
+                        <select>
+                            <option>Selecciona opción</option>
+                        </select>
+                    </span>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <a class="button is-primary">Primary</a>
+                <a class="button is-link">Link</a>
+                <button class="button is-twitter">
+                    <span class="icon">
+                        <i class="mdi mdi-twitter"></i>
+                    </span>
+                    <span>@joseluisgonsan</span>
+                </button>
+                <button class="button is-github">
+                    <span class="icon">
+                        <i class="mdi mdi-github"></i>
+                    </span>
+                    <span>joseluisgs</span>
+                </button>
+            </div>
+            <div class="has-text-centered">
+                <a href="https://bulma.io">
+                    <img src="https://bulma.io/images/made-with-bulma.png" alt="Made with Bulma" width="175" height="32">
+                </a>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer id="Footer" class="footer">
+        <div class="content has-text-centered">
+                <p class="copyright">Coding with <i class="mdi mdi-heart-multiple" size="is-small"></i> &copy;
+                    <a href="http://github.com/joseluisgs" target="_blank" rel="noopener noreferrer">José Luis González Sánchez</a>. 2021
+                </p>
+                    <a href="https://twitter.com/joseluisgonsan" target="_blank">
+                        <i class="mdi mdi-24px mdi-twitter has-text-twitter"></i>
+                    </a>
+                    <a href="https://github.com/joseluisgs" target="_blank">
+                        <i class="mdi mdi-24px mdi-github has-text-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/joseluisgonsan/?locale=es_ES" target="_blank">
+                        <i class="mdi mdi-24px mdi-linkedin has-text-linkedin"></i>
+                    </a>
+        </div>
+        
+    </footer>
+
+
+    <!-- SCRIPTS 
+         Si no concatenas debes poner todos aquí los que usas -->
+    <script src="assets/scripts/scripts.js" charset="utf-8"></script>
+
+</body>
+
+</html>

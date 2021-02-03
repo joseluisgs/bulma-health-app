@@ -1,0 +1,80 @@
+// Importamos
+@charset "utf-8";
+
+// Iportamos variables que vayamos a usar de Bulma si queremos
+@import 'node_modules/bulma/sass/utilities/initial-variables';
+@import 'node_modules/bulma/sass/utilities/functions';
+
+// PERSONALIZACION DE BULMA
+// Cambiamos nuestro estilo por defecto
+// Comentar y descomentar para ver los cambios
+
+// Cambiamos los colores
+$purple: #8a4d76;
+$pink: #fa7c91;
+$brown: #757763;
+$beige-light: #d0d1cd;
+$beige-lighter: #eff0eb;
+
+// Actualizamos las variables de Bulma
+$family-sans-serif: 'Nunito', sans-serif;
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $purple;
+$link: $pink;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// O añadir nuevos colores
+$twitter: #55acee;
+$twitter-invert: findColorInvert($twitter);
+$github: #333;
+$github-invert: findColorInvert($github);
+
+// Podemos cambiar si queremos algunos elementos de los componentes
+$body-background-color: $beige-lighter;
+$control-border-width: 1px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+// O añadir nuevos colores
+$twitter: #55acee;
+$twitter-invert: findColorInvert($twitter);
+$github: #333;
+$github-invert: findColorInvert($github);
+$linkedin: #0077b5;
+$linkedin-invert: findColorInvert($linkedin);
+// Actualizmos el mapa de colores
+@import 'node_modules/bulma/sass/utilities/derived-variables';
+$addColors: (
+  'twitter': (
+    $twitter,
+    $twitter-invert,
+  ),
+  'github': (
+    $github,
+    $github-invert,
+  ),
+  'linkedin': (
+    $linkedin,
+    $linkedin-invert,
+  ),
+);
+$colors: map-merge($colors, $addColors);
+
+// 6. Importamos el resto de Bulma
+@import 'node_modules/bulma/bulma.sass';
+
+// Tocamos mis
+.footer {
+  padding: 2rem 1.5rem 1rem;
+}
+
+
+// Importamos solo lo que queramos de Bulma para reducir
+// @import "node_modules/bulma/sass/utilities/all";
+// @import "node_modules/bulma/sass/base/all";
+// @import "node_modules/bulma/sass/elements/all";
+// @import "node_modules/bulma/sass/components/all";
+// @import "node_modules/bulma/sass/grid/all";
+// @import "node_modules/bulma/sass/layout/all";

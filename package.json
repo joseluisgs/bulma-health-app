@@ -1,0 +1,41 @@
+{
+  "name": "bulma-health-app",
+  "version": "1.0.0",
+  "description": "Proyecto Health App con Bulma con Saass, Gulp y Browser Sync",
+  "main": "gulp.js",
+  "scripts": {
+    "start": "gulp",
+    "serve": "gulp",
+    "clean": "rm -rf dist",
+    "reinstall": "rm -rf node_modules && npm install"
+  },
+  "keywords": [
+    "Gulp",
+    "Sass",
+    "Bulma"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseluisgs/bulma-health-app.git"
+  },
+  "author": "joseluisgs",
+  "twitter": "https://twitter.com/joseluisgonsan",
+  "bugs": {
+    "url": "https://github.com/joseluisgs/bulma-health-app/issues"
+  },
+  "homepage": "https://github.com/joseluisgs/bulma-health-app#readme",
+  "license": "MIT",
+  "dependencies": {
+    "bulma": "^0.9.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-sass": "^4.1.0"
+  }
+}
