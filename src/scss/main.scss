@@ -1,24 +1,51 @@
 // Importamos
 @charset "utf-8";
 
-// Mis FUENTES
+// MIS FUENTES
 // @import url("https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;500;600;700;800;900&display=swap");
+$family-sans-serif: 'Saira', sans-serif;
 
 // MIS COLORES
 $info: #17a2b8;
-$family-sans-serif: 'Saira', sans-serif;
+
+// Nuevos colores y mapas de colores
+$twitter: #55acee;
+$twitter-invert: findColorInvert($twitter);
+$github: #333;
+$github-invert: findColorInvert($github);
+$linkedin: #0077b5;
+$linkedin-invert: findColorInvert($linkedin);
+// Actualizmos el mapa de colores
+@import 'node_modules/bulma/sass/utilities/derived-variables';
+$addColors: (
+  'twitter': (
+    $twitter,
+    $twitter-invert,
+  ),
+  'github': (
+    $github,
+    $github-invert,
+  ),
+  'linkedin': (
+    $linkedin,
+    $linkedin-invert,
+  ),
+);
+$colors: map-merge($colors, $addColors);
 
 
 // RESTO DE BULMA
 @import 'node_modules/bulma/bulma.sass';
 
 
-// MIS ESTILOS
+// MIS ESTILOS CSS
 // Transiciones suaves de scroll
 html {
   scroll-behavior: smooth;
 }
 
+
+// Navbar
 // Centramos Los contenidos de la navbar
 .app-title {
   width: 100%;
@@ -28,6 +55,15 @@ html {
 // Centramos el burguer
 .navbar-burger {
    height: auto;
+}
+
+// Centramos solo en Desktop los items del navbar
+@media screen and (min-width: $desktop){
+  .navbar-start{
+    flex-grow: 1;
+    justify-content: center;
+    text-align: center;
+  }
 }
 
 // Sección Hero
@@ -66,8 +102,17 @@ html {
   max-width: 100%;
 }
 
+#sobre-nosotros {
+  padding: 15vh 0;
+}
+
+#precio {
+  padding: 15vh 0;
+}
+
 // Galeria
 #galeria {
+  padding: 15vh 0;
   background-image: radial-gradient(
     circle farthest-corner at 12.3% 19.3%,
     rgba(85, 88, 218, 1) 0%,
@@ -126,13 +171,8 @@ html {
   border-radius: 5px;
 }
 
-
-// Centramos solo en Desktop los items del navbar
-@media screen and (min-width: $desktop){
-  .navbar-start{
-    flex-grow: 1;
-    justify-content: center;
-    text-align: center;
-  }
+// Footer
+.footer {
+  padding: 2rem 1.5rem 1rem;
 }
-// Elementos a cambiar
+
