@@ -62,10 +62,19 @@ html {
   opacity: 0.8;
 }
 
-// DEsplazamiento de la imagen
+// Desplazamiento de la imagen
 .hero .mobile-image {
   margin-bottom: -158px;
   max-width: 100%;
+}
+
+// Galeria
+#galeria {
+  background-image: radial-gradient(
+    circle farthest-corner at 12.3% 19.3%,
+    rgba(85, 88, 218, 1) 0%,
+    rgba(95, 209, 249, 1) 100%
+  );
 }
 
 // Centramos solo en Desktop los items del navbar
