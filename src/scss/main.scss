@@ -6,11 +6,15 @@
 @import 'node_modules/bulma/sass/utilities/functions';
 
 // Mis FUENTES
-@import url('https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;500;600;700;800;900&display=swap');
 $family-sans-serif: 'Saira', sans-serif;
 
 // Importamos el resto de Bulma
 @import 'node_modules/bulma/bulma.sass';
+
+html {
+  scroll-behavior: smooth;
+}
+
 
 // Centramos Los contenidos de la navbar
 .app-title {
