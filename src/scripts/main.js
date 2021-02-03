@@ -1,15 +1,16 @@
 /* MIS SCRIPT */
 
+// MENU
+const burgerIcon = document.querySelector('#navbar-menu-burguer');
+const navbarMenu = document.querySelector('#navbar-menu-items');
 
-// TRANSICIONES
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
+// Cuando se pulsa cambiamos la propiedad is-active
+burgerIcon.addEventListener('click', () => {
+    navbarMenu.classList.toggle('is-active');
 });
+
+
+
 
 // WOW Init
 var swiper = new Swiper(".swiper-container", {
@@ -21,11 +22,3 @@ var swiper = new Swiper(".swiper-container", {
 // WOW
 new WOW().init()
 
-// MENU
-const burgerIcon = document.querySelector('#navbar-menu-burguer');
-const navbarMenu = document.querySelector('#navbar-menu-items');
-
-// Cuando se pulsa cambiamos la propiedad is-active
-burgerIcon.addEventListener('click', () => {
-    navbarMenu.classList.toggle('is-active');
-});
