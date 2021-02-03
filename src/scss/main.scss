@@ -75,6 +75,47 @@ html {
   );
 }
 
+// Precio
+.price-box {
+  color: #17a2b8;
+  transition: 0.5s all ease;
+}
+.price-box:hover {
+  box-shadow: 0 0 50px -15px #4d43c6;
+}
+
+.price-box .price-header {
+  padding: 40px;
+  background: linear-gradient(
+    45deg,
+    rgba(72, 44, 191, 1) 0%,
+    rgba(106, 198, 240, 1) 100%
+  );
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+  transition: 0.5s all ease;
+}
+.price-box .price-header:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f2f3fc;
+  z-index: -1;
+  transition: 0.5s all ease;
+}
+.price-box:hover .price-header {
+  color: #fff;
+}
+.price-box:hover .price-header:before {
+  opacity: 0;
+}
+
+
+
 // Centramos solo en Desktop los items del navbar
 @media screen and (min-width: $desktop){
   .navbar-start{
