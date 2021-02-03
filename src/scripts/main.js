@@ -7,6 +7,7 @@ const navbarMenu = document.querySelector('#navbar-menu-items');
 // Cuando se pulsa cambiamos la propiedad is-active
 burgerIcon.addEventListener('click', () => {
     navbarMenu.classList.toggle('is-active');
+    burgerIcon.classList.toggle('is-active');
 });
 
 

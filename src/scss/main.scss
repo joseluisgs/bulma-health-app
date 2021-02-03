@@ -1,21 +1,19 @@
 // Importamos
 @charset "utf-8";
 
-// Iportamos variables que vayamos a usar de Bulma si queremos
-@import 'node_modules/bulma/sass/utilities/initial-variables';
-@import 'node_modules/bulma/sass/utilities/functions';
-
 // Mis FUENTES
-$family-sans-serif: 'Saira', sans-serif;
+// @import url("https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 // MIS COLORES
-$primary: #17a2b8;
+$info: #17a2b8;
+$family-sans-serif: 'Saira', sans-serif;
 
 
-// Importamos el resto de Bulma
+// RESTO DE BULMA
 @import 'node_modules/bulma/bulma.sass';
 
 
+// MIS ESTILOS
 // Transiciones suaves de scroll
 html {
   scroll-behavior: smooth;
