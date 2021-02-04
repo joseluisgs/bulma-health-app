@@ -10,7 +10,12 @@ Proyecto Health App web con Bulma usando Saas y temas propios optimizando la tar
 
 ## Acerca de
 
-Proyecto Health App realizado con el Framework CSS [Bulma](https://bulma.io/) y personalizado con Sass. Para ello se ha creado una serie de tareas automatizadas con [Gulp](https://gulpjs.com/) y se ha añadido como iconos [Font Awesome](https://fontawesome.com/) y distintos librerías y efectos interactivos.
+Proyecto Health App realizado con el Framework CSS [Bulma](https://bulma.io/) y personalizado con Sass. Cuenta con interacción usando Vanilla JS y distintas animaciones y efectos. Para ello se ha creado una serie de tareas automatizadas con [Gulp](https://gulpjs.com/) y se ha añadido como iconos [Font Awesome](https://fontawesome.com/) y distintos librerías y efectos interactivos. El objetivo de este proyecto es mostrar como se puede portar un [proyecto realizado en Bootstrap](https://www.youtube.com/watch?v=cS-m4xDwcwo) a otro framework y comprobar la equivalencia entre los mismos.
+
+### Capturas
+<img src="./images/desktop.jpg" height="600"/>
+<img src="./images/tablet.jpg" height="600"/>
+<img src="./images/mobile.jpg" height="600"/>
 
 ## Funcionamiento con npm:
 
