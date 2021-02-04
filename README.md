@@ -5,8 +5,8 @@ Proyecto Health App web con Bulma usando Saas y temas propios optimizando la tar
 [![Bulma](https://img.shields.io/badge/Bulma-%20Ready-00d1b2)](https://bulma.io/made-with-bulma/)
 [![Saas](https://img.shields.io/badge/Sass-%20Ready-ff69b4)](https://sass-lang.com/)
 [![Gulp](https://img.shields.io/badge/Gulp-%20Ready-cf4647)](https://gulpjs.com/)
-[![Licence](https://img.shields.io/github/license/joseluisgs/bulma-sass-init-gulp)](./LICENSE)
-![GitHub](https://img.shields.io/github/last-commit/joseluisgs/bulma-sass-init-gulp)
+[![Licence](https://img.shields.io/github/license/joseluisgs/bulma-health-app)](./LICENSE)
+![GitHub](https://img.shields.io/github/last-commit/joseluisgs/bulma-health-app)
 
 ## Acerca de
 
