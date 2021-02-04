@@ -102,17 +102,8 @@ html {
   max-width: 100%;
 }
 
-#sobre-nosotros {
-  padding: 15vh 0;
-}
-
-#precio {
-  padding: 15vh 0;
-}
-
 // Galeria
 #galeria {
-  padding: 15vh 0;
   background-image: radial-gradient(
     circle farthest-corner at 12.3% 19.3%,
     rgba(85, 88, 218, 1) 0%,
@@ -161,7 +152,6 @@ html {
 
 // Contacto
 .subscribe-area {
-  padding: 15vh 0;
   background: url('/assets/images/subscribe-bg.jpg') no-repeat scroll center center / cover;
 }
 
@@ -169,10 +159,12 @@ html {
   background-color: #fff;
   padding: 60px;
   border-radius: 5px;
+  box-shadow: 0 0.5em 1em -0.125em rgba($scheme-invert, 0.1), 0 0px 0 1px rgba($scheme-invert, 0.02)
 }
 
 // Footer
 .footer {
   padding: 2rem 1.5rem 1rem;
+  background-color: rgb(246, 251, 255);
 }
 
